@@ -128,7 +128,7 @@ console.log(mostPets, "mostPets should be 8");
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
-let luckyResults;
+let luckyResult;
 
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
