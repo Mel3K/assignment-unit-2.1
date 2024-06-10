@@ -43,21 +43,42 @@ let pets = 5;
 console.log(pets, "Pets number is 5");
 
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
+let friendsPets = 3;
+console.log(friendsPets, "friendspets should be 3");
 
 // 10 - Add two pets to your `pets` variable
+ pets = pets += 3;
+ console.log(pets, "pets should now be 8");
+
+
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
+const allowedPets = 4;
+console.log(allowedPets, "allowedPets should be 4");
 
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
+let result;
+if (adventurous === true){
+  result = "Adventures are great!"
+}
+else {
+    result = "How about we stay home?"
+  }
+console.log(result);
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional: 
 //      if luckyNumber is 2 and adventurous is true,
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
+let diceRoll = "Try again later.";
+if (luckyNumber === 2 && adventurous === true){
+  diceRoll = "Roll the dice!";
+}
+console.log(diceRoll, "diceRoll should be Try again later.", luckyNumber, adventurous);
 
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
@@ -67,7 +88,18 @@ console.log(pets, "Pets number is 5");
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
-
+let petStatus;
+console.log(petStatus, "undefined");
+if(pets < allowedPets){
+  petStatus = "I can have more pets";
+}
+if(pets === allowedPets){ 
+ petStatus = "I have enough pets";
+}
+if(pets > allowedPets){
+  petStatus = "Oh no, I have too many pets!";
+}
+console.log(petStatus, "should be Oh No I have too many pets");
 
 // STRETCH GOALS:
 
@@ -76,6 +108,17 @@ console.log(pets, "Pets number is 5");
 //      assigns the highest value to `mostPets`. There's several possibilities --
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
+let mostPets;
+if(pets > friendsPets){
+  mostPets = pets;
+}
+if(friendsPets > pets){
+  mostPets = friendsPets;
+}
+if(pets === friendsPets){
+  mostPets = pets;
+}
+console.log(mostPets, "mostPets should be 8");
 
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
@@ -85,6 +128,8 @@ console.log(pets, "Pets number is 5");
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
+let luckyResults;
+
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
