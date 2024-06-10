@@ -23,9 +23,14 @@ console.log(luckyNumber, "luckyNumber is 7");
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
+let introduction = "My name is " + fullName + ", and I think " + luckyNumber + " is a winner!";
+console.log(introduction);
+
 
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
+let adventurous = true;
+console.log(adventurous, "true");
 
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
