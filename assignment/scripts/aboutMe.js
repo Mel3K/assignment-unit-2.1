@@ -34,9 +34,13 @@ console.log(adventurous, "true");
 
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
+let food = "Tacos";
+console.log(food, "Tacos");
 
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
+let pets = 5;
+console.log(pets, "Pets number is 5");
 
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
